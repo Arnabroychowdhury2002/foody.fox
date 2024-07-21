@@ -9,8 +9,7 @@ export default function Home() {
   const [search, setSearch] = useState('')
   const loadFoodItems = async () => {
     let response = await fetch("https://foodyfox-9gqk.onrender.com/api/foodData", {
-      // credentials: 'include',
-      // Origin:"http://localhost:3000/login",
+      
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
