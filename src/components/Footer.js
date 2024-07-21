@@ -9,7 +9,7 @@ export default function Footer() {
       <Link to="/" className="mb-3 me-2 mb-md-0 text-body-secondLinkry text-decorLinktion-none lh-1">
         
       </Link>
-      <span className="mb-3 mb-md-0 text-body-secondLinkry">© 2024 Crated by Arnab Roy chowdhury</span>
+      <span className="mb-3 mb-md-0 text-body-secondLinkry">© 2024 Created by Arnab Roy chowdhury</span>
     </div>
 
     
