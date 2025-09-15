@@ -8,7 +8,7 @@ export default function Home() {
   const [foodItems, setFoodItems] = useState([])
   const [search, setSearch] = useState('')
   const loadFoodItems = async () => {
-    let response = await fetch("https://foodyfox-9gqk.onrender.com/api/foodData", {
+    let response = await fetch("https://foodyfoxbackend.vercel.app/api/foodData", {
       
       method: 'POST',
       headers: {
