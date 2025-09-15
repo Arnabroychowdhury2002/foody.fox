@@ -14,7 +14,7 @@ export default function MyOrder() {
                 throw new Error('No user email found in local storage.');
             }
 
-            const response = await fetch("https://foodyfox-9gqk.onrender.com/api/myOrderData", {
+            const response = await fetch("https://foodyfoxbackend.vercel.app/api/myOrderData", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
