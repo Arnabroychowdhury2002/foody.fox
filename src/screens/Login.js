@@ -7,7 +7,7 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://foodyfox-9gqk.onrender.com/api/loginuser", {
+    const response = await fetch("https://foodyfoxbackend.vercel.app/api/loginuser", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
